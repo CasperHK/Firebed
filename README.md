@@ -21,7 +21,7 @@ Powered by **Rust (Salvo)** on the backend and **Qwik** on the frontend, Firebed
 
 ## 🏗️ Tech Stack
 
-- **Backend**: Rust, [Salvo Web Framework](https://salvo.rs/), SQLx, Tokio
+- **Backend**: Rust, [Salvo Web Framework](https://salvo.rs/), SeaORM, Tokio
 - **Frontend**: [Qwik City](https://qwik.dev/), TailwindCSS
 - **Database**: PostgreSQL
 - **Deployment**: Docker / Single Executable Binary
