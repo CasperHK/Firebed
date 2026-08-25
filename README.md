@@ -105,6 +105,16 @@ docker run -d \
 
 ---
 
+## 🤖 AI Agent & MCP Integration
+
+Firebed includes native Model Context Protocol (MCP) and REST endpoints designed for autonomous AI agents (such as Claude, ChatGPT, or custom LLM ops tools) to manage incidents end-to-end. AI agents can safely query, create, update, or resolve incident records and append timeline events using structured JSON schemas. To ensure operational safety:
+
+- **RBAC & Scoped Tokens**: Agents operate under dedicated service accounts with strict role-based access control (RBAC), limiting write/delete permissions to authorized scopes.
+- **Audit Logging & Rollbacks**: Every AI-initiated modification (add, edit, soft-delete) is immutably logged in the system timeline with step-level provenance, allowing human responders to review or revert any action instantly.
+- **Human-in-the-Loop Safeguards**: Destructive actions (e.g., hard-deleting records or closing critical P0 incidents) require explicit confirmation flags or human approval in the dashboard.
+
+---
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://www.google.com/search?q=https://github.com/your-username/firebed/issues).
