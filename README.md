@@ -1,4 +1,3 @@
-```markdown
 # 🔥 Firebed
 
 > **Lightning-fast, ultra-lightweight open-source incident management & postmortem platform.**
